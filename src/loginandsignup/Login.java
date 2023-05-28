@@ -1,6 +1,6 @@
 
 package loginandsignup;
-
+import java.sql.*;
 
 public class Login extends javax.swing.JFrame {
 
@@ -208,6 +208,7 @@ public class Login extends javax.swing.JFrame {
         SignUp SignUpFrame = new SignUp();
         SignUpFrame.setVisible(true);
         SignUpFrame.pack();
+        SignUpFrame.setResizable(false);
         SignUpFrame.setLocationRelativeTo(null); 
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed

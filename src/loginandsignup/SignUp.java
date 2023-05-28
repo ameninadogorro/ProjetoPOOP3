@@ -223,6 +223,7 @@ public class SignUp extends javax.swing.JFrame {
         Login LoginFrame = new Login();
         LoginFrame.setVisible(true);
         LoginFrame.pack();
+        LoginFrame.setResizable(false);
         LoginFrame.setLocationRelativeTo(null); 
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
