@@ -61,6 +61,7 @@ public class Interface extends javax.swing.JFrame{
         setBackground(new java.awt.Color(153, 204, 255));
         setForeground(new java.awt.Color(153, 204, 255));
 
+        b8.setBackground(new java.awt.Color(153, 204, 255));
         b8.setText("8");
         b8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -68,7 +69,9 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b7.setBackground(new java.awt.Color(153, 204, 255));
         b7.setText("7");
+        b7.setDoubleBuffered(true);
         b7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b7ActionPerformed(evt);
@@ -77,7 +80,6 @@ public class Interface extends javax.swing.JFrame{
 
         bX.setBackground(new java.awt.Color(153, 204, 255));
         bX.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
-        bX.setForeground(new java.awt.Color(255, 255, 255));
         bX.setText("x");
         bX.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,6 +87,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b9.setBackground(new java.awt.Color(153, 204, 255));
         b9.setText("9");
         b9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,6 +95,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b5.setBackground(new java.awt.Color(153, 204, 255));
         b5.setText("5");
         b5.setBorder(null);
         b5.addActionListener(new java.awt.event.ActionListener() {
@@ -100,6 +104,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b4.setBackground(new java.awt.Color(153, 204, 255));
         b4.setText("4");
         b4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +114,6 @@ public class Interface extends javax.swing.JFrame{
 
         bMenos.setBackground(new java.awt.Color(153, 204, 255));
         bMenos.setFont(new java.awt.Font("Helvetica Neue", 1, 16)); // NOI18N
-        bMenos.setForeground(new java.awt.Color(255, 255, 255));
         bMenos.setText("-");
         bMenos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,6 +121,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b6.setBackground(new java.awt.Color(153, 204, 255));
         b6.setText("6");
         b6.setBorder(null);
         b6.addActionListener(new java.awt.event.ActionListener() {
@@ -125,6 +130,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b0.setBackground(new java.awt.Color(153, 204, 255));
         b0.setText("0");
         b0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,6 +138,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        bMaisMenos.setBackground(new java.awt.Color(153, 204, 255));
         bMaisMenos.setText("+/-");
         bMaisMenos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,7 +148,6 @@ public class Interface extends javax.swing.JFrame{
 
         bIgual.setBackground(new java.awt.Color(153, 204, 255));
         bIgual.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
-        bIgual.setForeground(new java.awt.Color(255, 255, 255));
         bIgual.setText("=");
         bIgual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -149,6 +155,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        bVirgula.setBackground(new java.awt.Color(153, 204, 255));
         bVirgula.setText(",");
         bVirgula.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,6 +163,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b2.setBackground(new java.awt.Color(153, 204, 255));
         b2.setText("2");
         b2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,6 +171,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b1.setBackground(new java.awt.Color(153, 204, 255));
         b1.setText("1");
         b1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -172,7 +181,6 @@ public class Interface extends javax.swing.JFrame{
 
         bMais.setBackground(new java.awt.Color(153, 204, 255));
         bMais.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
-        bMais.setForeground(new java.awt.Color(255, 255, 255));
         bMais.setText("+");
         bMais.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,6 +188,7 @@ public class Interface extends javax.swing.JFrame{
             }
         });
 
+        b3.setBackground(new java.awt.Color(153, 204, 255));
         b3.setText("3");
         b3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,7 +197,6 @@ public class Interface extends javax.swing.JFrame{
         });
 
         bXAoQuadrado.setBackground(new java.awt.Color(153, 204, 255));
-        bXAoQuadrado.setForeground(new java.awt.Color(255, 255, 255));
         bXAoQuadrado.setText("x²");
         bXAoQuadrado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -197,7 +205,6 @@ public class Interface extends javax.swing.JFrame{
         });
 
         bUmSobreX.setBackground(new java.awt.Color(153, 204, 255));
-        bUmSobreX.setForeground(new java.awt.Color(255, 255, 255));
         bUmSobreX.setText("⅟x");
         bUmSobreX.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -207,7 +214,6 @@ public class Interface extends javax.swing.JFrame{
 
         bDividir.setBackground(new java.awt.Color(153, 204, 255));
         bDividir.setFont(new java.awt.Font("Helvetica Neue", 1, 16)); // NOI18N
-        bDividir.setForeground(new java.awt.Color(255, 255, 255));
         bDividir.setText("÷");
         bDividir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,7 +222,6 @@ public class Interface extends javax.swing.JFrame{
         });
 
         bRaizDeX.setBackground(new java.awt.Color(153, 204, 255));
-        bRaizDeX.setForeground(new java.awt.Color(255, 255, 255));
         bRaizDeX.setText("√x");
         bRaizDeX.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -225,7 +230,6 @@ public class Interface extends javax.swing.JFrame{
         });
 
         bCE.setBackground(new java.awt.Color(153, 204, 255));
-        bCE.setForeground(new java.awt.Color(255, 255, 255));
         bCE.setText("CE");
         bCE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,7 +238,6 @@ public class Interface extends javax.swing.JFrame{
         });
 
         bPercent.setBackground(new java.awt.Color(153, 204, 255));
-        bPercent.setForeground(new java.awt.Color(255, 255, 255));
         bPercent.setText("%");
         bPercent.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -243,8 +246,7 @@ public class Interface extends javax.swing.JFrame{
         });
 
         bApagar.setBackground(new java.awt.Color(153, 204, 255));
-        bApagar.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
-        bApagar.setForeground(new java.awt.Color(255, 255, 255));
+        bApagar.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
         bApagar.setText("⌫");
         bApagar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -253,7 +255,6 @@ public class Interface extends javax.swing.JFrame{
         });
 
         bC.setBackground(new java.awt.Color(153, 204, 255));
-        bC.setForeground(new java.awt.Color(255, 255, 255));
         bC.setText("C");
         bC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -273,7 +274,6 @@ public class Interface extends javax.swing.JFrame{
 
         MC.setBackground(new java.awt.Color(153, 204, 255));
         MC.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        MC.setForeground(new java.awt.Color(255, 255, 255));
         MC.setText("MC");
         MC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -283,7 +283,6 @@ public class Interface extends javax.swing.JFrame{
 
         mMais.setBackground(new java.awt.Color(153, 204, 255));
         mMais.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        mMais.setForeground(new java.awt.Color(255, 255, 255));
         mMais.setText("M+");
         mMais.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -293,7 +292,6 @@ public class Interface extends javax.swing.JFrame{
 
         MR.setBackground(new java.awt.Color(153, 204, 255));
         MR.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        MR.setForeground(new java.awt.Color(255, 255, 255));
         MR.setText("MR");
         MR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -303,7 +301,6 @@ public class Interface extends javax.swing.JFrame{
 
         MSeta.setBackground(new java.awt.Color(153, 204, 255));
         MSeta.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        MSeta.setForeground(new java.awt.Color(255, 255, 255));
         MSeta.setText("M^");
         MSeta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -313,7 +310,6 @@ public class Interface extends javax.swing.JFrame{
 
         MS.setBackground(new java.awt.Color(153, 204, 255));
         MS.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        MS.setForeground(new java.awt.Color(255, 255, 255));
         MS.setText("MS");
         MS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -323,7 +319,6 @@ public class Interface extends javax.swing.JFrame{
 
         mMenos.setBackground(new java.awt.Color(153, 204, 255));
         mMenos.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        mMenos.setForeground(new java.awt.Color(255, 255, 255));
         mMenos.setText("M-");
         mMenos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
